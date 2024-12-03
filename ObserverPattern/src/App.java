@@ -7,8 +7,8 @@ public class App {
     public static void main(String[] args) {
         boolean exit = false;
         NewsAgency newsAgency = new NewsAgency();
-        Subscriber renard = new Subscriber("Renard");
-        newsAgency.addSubscriber(renard);
+        Subscriber renard = new Subscriber("Dan");
+        newsAgency.addSubscriber(dan);
 
         newsAgency.publishHeadline("Historic Eclipse Visible Tonight!");
         newsAgency.publishContent("A rare solar eclipse will be visible tonight across most of the northern hemisphere.");
