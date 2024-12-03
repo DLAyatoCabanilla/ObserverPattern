@@ -7,7 +7,7 @@ public class App {
     public static void main(String[] args) {
         boolean exit = false;
         NewsAgency newsAgency = new NewsAgency();
-        Subscriber renard = new Subscriber("Dan");
+        Subscriber dan = new Subscriber("Dan");
         newsAgency.addSubscriber(dan);
 
         newsAgency.publishHeadline("Historic Eclipse Visible Tonight!");
